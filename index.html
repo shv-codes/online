@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Generic Page</title>
+</head>
+<body>
+	<header>
+		<h1>Welcome</h1>
+	</header>
+
+	<main>
+		<p>This is a generic HTML page.</p>
+		<button type="button" onclick="showMessage()">Click me</button>
+		<p id="message">Now I have comprehensive information about F1 tyre regulation history. Let me compile this into a detailed, scientifically defensible analysis for your hackathon challenge.
+
+## Recommended Historical Window for F1 Tyre Degradation Modelling
+
+Based on authoritative F1, FIA, and Pirelli documentation, here is a scientifically grounded analysis of which years should be included in your tyre degradation modelling dataset.
+
+***
+
+## Tyre-Regulation Changes: The Critical Breakpoints
+
+### 2022: The 13-inch → 18-inch Revolution
+
+The most significant tyre-related regulation change in your dataset is the **2022 transition from 13-inch to 18-inch wheels**, which fundamentally altered tyre degradation behaviour. [formula1](https://www.formula1.com/en/latest/article/7-key-rule-changes-for-the-2022-season.2E7JH9MywymU8xxw6r5yDS)
+
+**Key changes in 2022:** [formula1](https://www.formula1.com/en/latest/article/7-key-rule-changes-for-the-2022-season.2E7JH9MywymU8xxw6r5yDS)
+- **Wheel diameter:** Increased from 13 inches (33 cm) to 18 inches (46 cm)
+- **Sidewall height:** Dramatically reduced (low-profile tyres), making tyres more robust but changing heat management and degradation characteristics
+- **Tyre blanket temperatures:** Reduced from 100°C (front) / 80°C (rear) to 70°C for both axles
+- **Tyre pressures:** Running pressures became lower due to the smaller sidewall
+- **Compound selection:** Pirelli brought harder compound selections (e.g., C1–C3 at Bahrain 2022 vs C2–C4 in 2021) [en.wikipedia](https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix)
+
+This change was originally scheduled for 2021 but was delayed to 2022 due to the COVID-19 pandemic. [autoweek](https://www.autoweek.com/racing/formula-1/a38593154/why-formula-1-18-inch-tires-expect/)
+
+### 2019–2021: The "Third Generation" 13-inch Tyres
+
+**2019:** Introduction of the C1–C5 compound naming system (replacing the previous hypersoft/ultrasoft/supersoft nomenclature), with five compounds available but only three brought to each race. [formula1](https://www.formula1.com/en/latest/article/f1-rules-and-regulations-what's-new-for-2019.2DIt7TEs9YqI8IY6mEcwsM)
+
+**2019 technical change:** All compounds switched to thin-gauge tread design (previously used only at select high-degradation circuits in 2018), and all five dry-weather compounds shared the same internal construction by regulation. [racefans](https://www.racefans.net/2019/04/23/analysis-how-testing-disguised-haass-poor-race-pace-and-why-baku-worries-them/)
+
+**2020:** Continuation of 2019 tyre specification.
+
+**2021:** Originally intended to be the first year of 18-inch tyres, but due to the pandemic, the 2019-spec 13-inch tyres were used for a **third consecutive season**.  However, Pirelli introduced **more robust construction** with a larger carcass to handle continued aerodynamic development.  Additionally, downforce was reduced via floor cuts to keep loads within the capabilities of tyres not designed for three years of aero development. [formula1](https://www.formula1.com/en/latest/article/2021-downforce-cut-more-than-welcome-as-pirelli-prepare-for-third-season.3BCxFZRI45gMIhIR6V3ntS)
+
+**Tyre blanket temperatures in 2021:** Reduced to 100°C (front) and 80°C (rear) from previous 100°C/80°C (no change from 2020, but this was the last year before the 70°C reduction). [racecar-engineering](https://www.racecar-engineering.com/tech-explained/how-do-tyre-blankets-work/)
+
+### 2023–2026: Post-2022 Refinements
+
+**2023:**
+- New compound inserted between C1 and C2 (effectively creating a new "C1.5"), expanding the range and changing compound selection dynamics. [en.wikipedia](https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship)
+- New, more performant wet tyre introduced from Emilia Romagna GP (does not require blankets). [formula1](https://www.formula1.com/en/latest/article/new-tyres-wet-weather-bodykit-testing-and-drs-zone-changes-discussed-in.5urXcWAONzuMGTxIi16uN4)
+- Tyre blanket temperature was planned to drop to 50°C but was **postponed** after driver safety concerns following US GP testing. [the-race](https://www.the-race.com/formula-1/f1-set-to-drop-2023-rule-change-no-driver-wants/)
+- **Mid-season construction change:** From the 2023 British GP, Pirelli introduced a tougher tyre construction (using 2024 development materials) to cope with higher-than-expected car performance. [planetf1](https://www.planetf1.com/news/pirelli-tougher-tyres-from-silverstone)
+
+**2024:**
+- Tyre blanket ban for dry tyres was **postponed** from 2024 to continue testing into 2025. [fia](https://www.fia.com/news/formula-1-commission-meeting-280723)
+- Pirelli reduced from six compounds (C1–C6 in 2023) back to five (C1–C5). [gpfans](https://www.gpfans.com/en/f1-news/100347/f1-tyres-changes-compounds-rules-colours-blankets/)
+
+**2025:**
+- **C6 compound introduced** as the softest option, specifically for low-degradation street circuits (Monaco, Imola, Canada, Azerbaijan, etc.). [en.wikipedia](https://en.wikipedia.org/wiki/Formula_One_tyres)
+- Six compounds available (C1–C6), with three selected per race.
+
+**2026:**
+- **Major regulation overhaul:** Narrower tyres (front −25mm, rear −30mm), reduced minimum weight (−30kg to 768kg), shorter wheelbase (−200mm), narrower floor (−150mm), and active aerodynamics (X-Mode/Z-Mode). [bbc](https://www.bbc.com/sport/formula1/articles/cly9l13qq8po)
+- C6 compound **abandoned**; back to five compounds (C1–C5). [bbc](https://www.bbc.com/sport/formula1/articles/cly9l13qq8po)
+- Tyres remain 18-inch but with reduced width and slightly reduced diameter for weight/drag reduction. [formula1](https://www.formula1.com/en/latest/article/explained-2026-aerodynamic-regulations-fia-x-mode-z-mode-.26c1CtOzCmN3GfLMywrgb2)
+
+***
+
+## Scientifically Defensible Tyre Eras
+
+Based on the above, your dataset should be divided as follows:
+
+### **Era 1: 2019–2021 (13-inch, high-sidewall tyres)**
+- **Tyre size:** 13-inch wheels, high-profile sidewalls
+- **Construction:** 2019-spec thin-gauge tread; 2021 saw more robust carcass but same fundamental behaviour
+- **Compounds:** C1–C5 range (five compounds, three per race)
+- **Blanket temperatures:** 100°C front / 80°C rear (2019–2020), same in 2021
+- **Car regulations:** Pre-ground-effect aerodynamics; 2021 saw downforce cuts via floor trimming
+- **Degradation characteristics:** High degradation by design (Pirelli's "high-degradation" philosophy from 2011 onward); significant fuel-burn effects on lap times due to high initial fuel loads
+- **Comparability:** These three years are reasonably comparable to each other, though 2021's more robust construction and reduced downforce may introduce minor distribution shift. [formula1](https://www.formula1.com/en/latest/article/revealed-the-key-performance-area-being-closed-off-as-f1-trims-2021.3vEQAuYGUJxGteSx3JEmKi)
+
+### **Era 2: 2022–2025 (18-inch, low-profile tyres, pre-2026 regulations)**
+- **Tyre size:** 18-inch wheels, low-profile sidewalls
+- **Construction:** Fundamentally different from 2019–2021; more robust, less sensitive to vertical load changes, different heat management
+- **Compounds:** 2022–2024 used C1–C5; 2023 saw mid-season construction update; 2025 added C6
+- **Blanket temperatures:** 70°C for all slicks (2022–2025); planned 50°C reduction postponed
+- **Car regulations:** Ground-effect aerodynamics (2022+), significantly different downforce distribution and load transfer characteristics
+- **Degradation characteristics:** Lower degradation rates compared to 2019–2021; different wear mechanisms due to reduced sidewall flex; lap-time behaviour less dominated by fuel burn (smaller fuel tanks, more efficient engines)
+- **Comparability:** 2022–2025 are reasonably comparable, though 2023's mid-season construction change and 2025's C6 introduction introduce minor heterogeneity. [formula1](https://www.formula1.com/en/latest/article/7-key-rule-changes-for-the-2022-season.2E7JH9MywymU8xxw6r5yDS)
+
+### **Era 3: 2026+ (18-inch, narrower tyres, new aero/weight regime)**
+- **Tyre size:** 18-inch wheels, but **narrower** (front −25mm, rear −30mm)
+- **Construction:** New compounds and construction for 2026 regulations; C6 abandoned
+- **Car regulations:** Active aero, −30kg weight, −15–30% downforce, −40–55% drag, shorter wheelbase, narrower floor
+- **Degradation characteristics:** Unknown (2026 season just beginning as of your query date), but fundamentally different mechanical grip levels and load distributions expected
+- **Comparability:** **Not comparable** to 2022–2025; should be excluded from any model trained on historical data. [bbc](https://www.bbc.com/sport/formula1/articles/cly9l13qq8po)
+
+***
+
+## Why Older Data (Pre-2019) Is Not Useful
+
+If your dataset includes years before 2019:
+- **Pre-2019 tyre nomenclature:** Different compound naming (hypersoft, ultrasoft, supersoft, etc.) with different degradation characteristics
+- **Pre-2019 construction:** Different tread designs (not all compounds used thin-gauge tread)
+- **Aerodynamic regulations:** Pre-2017 wider tyres, pre-2019 simplified front wings, etc.
+- **Degradation philosophy:** Pirelli's high-degradation tyres introduced in 2011; pre-2011 data would be from Bridgestone era (completely different supplier and behaviour)
+
+**Conclusion:** Do not include pre-2019 data. The 2019 simplification of compound naming and standardisation of construction provides a clean starting point. [formula1](https://www.formula1.com/en/latest/article/f1-rules-and-regulations-what's-new-for-2019.2DIt7TEs9YqI8IY6mEcwsM)
+
+***
+
+## CSV Column Analysis: Useful vs. Problematic Features
+
+Assuming your CSV contains FastF1-derived columns, here is a breakdown:
+
+### **Relevant Columns for Tyre Degradation Modelling**
+
+| Column | Usefulness | Notes |
+|--------|------------|-------|
+| `LapTime` | **High** | Target variable (or derive delta from it) |
+| `TyreLife` / `LapNumber` in stint | **High** | Tyre age (laps since pit stop) is the primary predictor |
+| `Compound` | **High** | Categorical feature; different compounds degrade differently |
+| `Stint` | **High** | For grouping; identifies continuous tyre usage |
+| `Driver` | **Medium** | Random effect; some drivers manage tyres better |
+| `TeamName` | **Medium** | Random effect; car characteristics affect degradation |
+| `TrackTemp` / `AirTemp` | **High** | Temperature strongly affects degradation rates |
+| `SessionType` | **Medium** | Practice/Qualifying/Race have different fuel loads and push levels |
+| `Circuit` | **High** | Track characteristics (abrasiveness, corner types) affect wear |
+| `Year` / `Season` | **Medium** | For era identification; may introduce distribution shift if not handled properly |
+| `Sector1/2/3Time` | **Low/Medium** | Can help identify out-of-lap outliers, but risk of leakage (see below) |
+| `SpeedI1`, `SpeedI2`, `SpeedFL` | **Low** | Speed traps may indicate push level, but often noisy |
+| `PitOutTime`, `PitInTime` | **Medium** | For stint reconstruction if `Stint` column is unreliable |
+| `FreshTyre` | **Medium** | Boolean for new vs used tyres; affects initial lap times |
+| `TrackStatus` | **High** | Filter out yellow-flag, safety-car, VSC laps |
+| `IsPersonalBest` | **Low** | May indicate push laps, but post-race information |
+| `Weather`, `Rain` | **High** | Wet/dry conditions fundamentally change degradation |
+
+### **Columns Requiring Caution (Risk of Leakage or Bias)**
+
+| Column | Risk | Explanation |
+|--------|------|-------------|
+| `Sector1Time`, `Sector2Time`, `Sector3Time` | **High (Leakage)** | LapTime = S1 + S2 + S3; including these as features teaches the model to add, not predict degradation.  [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1) |
+| `LapTime` (if used as both feature and target) | **High (Leakage)** | Ensure you're predicting *future* lap times or lap-time deltas, not reconstructing the same value |
+| `IsPersonalBest` | **Medium (Post-race)** | Determined after the fact; not available at prediction time in real-time strategy |
+| `Position` | **Medium (Confounding)** | Affected by traffic, strategy, and incidents; not a causal factor for degradation |
+| `GapToLeader` | **Medium (Confounding)** | Same as above; reflects race situation, not tyre state |
+| `FuelLoad` (if present) | **High (Latent)** | FastF1 does **not** provide actual fuel loads; any fuel column is either estimated or post-race reconstructed. Do not treat as ground truth. |
+| `TyrePressure` (if present) | **High (Unobserved)** | Not available in FastF1; if present, it's from team radio or post-race analysis—unavailable at prediction time |
+| `DriverNumber` | **Low (Duplicate)** | Redundant with `Driver`; may cause multicollinearity |
+| `Time` (session time) | **Low (Noise)** | Absolute session time is not informative; tyre age and track evolution matter more |
+| `Year` (as continuous feature) | **Medium (Distribution Shift)** | Treating year as linear assumes 2019 → 2026 is a smooth progression, which is **false** due to regulation breakpoints |
+
+***
+
+## Recommended Modelling Dataset
+
+### **A. Years to Include**
+- **Primary recommendation:** **2022–2025** (18-inch tyre era, ground-effect cars)
+- **Secondary option (if more data needed):** **2019–2025**, but **train separate models** for 2019–2021 and 2022–2025, or include `Era` as a categorical feature with interaction terms.
+
+### **B. Years to Exclude**
+- **2026+:** Fundamentally different regulations (narrower tyres, active aero, −30kg weight); distribution shift guaranteed. [bbc](https://www.bbc.com/sport/formula1/articles/cly9l13qq8po)
+- **Pre-2019:** Different compound naming, construction, and aero regulations; not comparable. [formula1](https://www.formula1.com/en/latest/article/f1-rules-and-regulations-what's-new-for-2019.2DIt7TEs9YqI8IY6mEcwsM)
+
+### **C. Scientific Reasons for Exclusion**
+
+| Excluded Period | Reason |
+|-----------------|--------|
+| **2026+** | Narrower tyres (−25mm front, −30mm rear), −30kg weight, active aero, −15–30% downforce, new compound range (C6 abandoned); fundamentally different mechanical grip and degradation behaviour.  [formula1](https://www.formula1.com/en/latest/article/pirelli-confirm-2026-tyre-compounds-as-f1-gets-set-for-a-new-era-of.6la0zKVsCYwWk9AAISz4Yw) |
+| **Pre-2019** | Different compound nomenclature (hypersoft/ultrasoft/etc.), pre-thin-gauge tread constructions, different aero regulations; Pirelli's high-degradation philosophy evolved significantly from 2011–2018.  [formula1](https://www.formula1.com/en/latest/article/f1-rules-and-regulations-what's-new-for-2019.2DIt7TEs9YqI8IY6mEcwsM) |
+
+### **D. Should Year Be a Feature?**
+
+**No, not as a continuous variable.** Instead:
+- **Option 1 (Best):** Train **separate models** per tyre era (2019–2021 vs 2022–2025). This avoids distribution shift entirely.
+- **Option 2:** Include `Era` (categorical: "13-inch" vs "18-inch") as a feature, with interaction terms for `Compound × Era` and `TyreAge × Era`.
+- **Option 3 (Not recommended):** Include `Year` as categorical (one-hot encoded), but this assumes 2022 and 2023 are more similar than 2021 and 2022, which is **false** due to the 2022 regulation breakpoint.
+
+***
+
+## Is R² ≈ 0.87 Realistic?
+
+**Short answer:** Possibly, but **only if you're predicting lap times (not degradation rates)** and including strong confounders like sector times or post-race information.
+
+**Key insights from literature:**
+- A 2026 LinkedIn post describes an F1 lap-time prediction model achieving **R² = 0.978** using Random Forest, but the author explicitly notes this was **after removing sector times** to avoid leakage (initially, the model was "learning simple addition"). [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1)
+- Another project predicts **tyre degradation onset lap** (classification) with MAE ≈ 1.7 laps using XGBoost on 2022–2025 data. [schilamkur.github](https://schilamkur.github.io/Predict-Tire-Deg/)
+- State-space tyre degradation models (2025 arXiv) focus on **lap-time delta prediction** with skewed-t observation errors, not raw R². [arxiv](https://arxiv.org/pdf/2512.00640.pdf)
+
+**Realistic expectations:**
+- If predicting **absolute lap times** with features like `Compound`, `TyreAge`, `TrackTemp`, `Circuit`, `Driver` (random effect), and `SessionType`, **R² ≈ 0.85–0.92** is plausible. [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1)
+- If predicting **tyre degradation rate** (seconds/lap drop-off) or **lap-time delta** after correcting for fuel burn, **R² will be much lower** (≈ 0.3–0.6) because degradation is inherently noisy and confounded by traffic, push level, and track evolution.
+- If you achieve R² ≈ 0.87 on degradation rate, **suspect leakage** (e.g., sector times, post-race position, or stint-level random effects leaking into test set).
+
+***
+
+## Recommended Validation Strategy
+
+**This is critical.** Random lap-level splitting will produce **artificially high R²** because laps from the same stint are highly correlated (same tyre, same fuel trajectory, same track conditions).
+
+### **Best Practice: GroupKFold by Stint**
+
+- **Grouping key:** `(Race, Driver, Stint)` or `(Session, Driver, Stint)`
+- **Rationale:** All laps from the same stint must be in either train **or** test, never both. This prevents the model from "memorising" stint-specific patterns (e.g., this driver's fuel burn curve, this stint's traffic pattern).
+- **Implementation:** Use `sklearn.model_selection.GroupKFold` with `groups=df['StintID']` where `StintID = Race + Driver + Stint`.
+
+### **Alternative: Leave-One-Race-Out (LORO) Validation**
+
+- **Grouping key:** `Race` (or `GrandPrix`)
+- **Rationale:** Tests generalisation to unseen circuits and conditions; more realistic for real-world deployment (predicting degradation at a new track).
+- **Trade-off:** Higher variance in performance estimates; fewer folds (≈23 races/year).
+
+### **Time-Based Validation (Not Recommended for This Use Case)**
+
+- Splitting by date (e.g., train on 2022–2023, test on 2024–2025) risks **era shift** (2023 mid-season construction change, 2025 C6 introduction).
+- Only use if explicitly testing temporal generalisation.
+
+### **Recommended Approach for Your Hackathon**
+
+1. **Primary validation:** **GroupKFold (k=5 or 10) by `(Race, Driver, Stint)`**.
+2. **Secondary validation:** **Leave-One-Race-Out** to demonstrate robustness to unseen circuits.
+3. **Era-stratified validation:** Ensure each fold contains a mix of 2022–2025 data (if using the 18-inch era); do not let one fold be all 2025 (C6 bias).
+
+***
+
+## Statistical Tests to Verify Era Differences
+
+To demonstrate that 2019–2021 and 2022–2025 are **statistically distinct**, run the following analyses:
+
+### **1. Degradation Slope Distributions**
+- For each stint, fit a linear regression: `LapTime ~ TyreAge` (per compound, per circuit).
+- Compare the distribution of slopes (seconds/lap degradation) between eras using:
+  - **Kolmogorov-Smirnov test** (non-parametric, tests full distribution difference)
+  - **Mann-Whitney U test** (tests median difference)
+- **Expected result:** 2022–2025 should show **lower median degradation** (flatter slopes) than 2019–2021 due to 18-inch tyre robustness. [formula1](https://www.formula1.com/en/latest/article/7-key-rule-changes-for-the-2022-season.2E7JH9MywymU8xxw6r5yDS)
+
+### **2. Tyre-Age vs Lap-Time Curves**
+- Plot mean lap time vs tyre age (binned by age: 0–2, 3–5, 6–8, etc.) for each era, stratified by compound.
+- **Expected result:** 2019–2021 curves should show steeper initial drop (fuel burn) and faster late-stint degradation; 2022–2025 curves should be flatter.
+
+### **3. Compound-Specific Degradation**
+- Compare degradation rates (seconds/lap) for the same compound name (e.g., "SOFT") across eras.
+- **Caveat:** "SOFT" in 2022 may correspond to C3, while "SOFT" in 2019 may be C4 or C5; normalise by actual compound code (C1–C5) if available.
+
+### **4. Year/Era Interaction Effects**
+- Fit a model: `LapTime ~ TyreAge * Era + Compound + TrackTemp + (1|Driver) + (1|Circuit)`.
+- Test the significance of the `TyreAge × Era` interaction term (ANOVA or likelihood-ratio test).
+- **Expected result:** Interaction term should be **highly significant** (p < 0.001), indicating different degradation behaviour by era.
+
+### **5. Model Performance by Era**
+- Train a model on 2022–2024, test on 2025 vs train on 2019–2021, test on 2022–2025.
+- **Expected result:** Cross-era performance should drop significantly (e.g., R² drops from 0.88 to 0.65), demonstrating distribution shift.
+
+### **6. Residual Distributions**
+- Plot residuals (predicted − actual lap time) by era.
+- **Expected result:** Systematic bias (e.g., model trained on 2019–2021 consistently overpredicts 2022–2025 lap times).
+
+***
+
+## Final Recommendation
+
+### **Recommended historical window**
+**2022–2025** (18-inch tyre era, ground-effect regulations)
+
+### **Excluded historical window**
+**2019–2021** (13-inch tyres, pre-ground-effect aero) and **2026+** (narrower tyres, active aero, −30kg weight)
+
+### **Scientific reason**
+The 2022 transition from 13-inch to 18-inch tyres fundamentally altered degradation mechanisms: reduced sidewall flex, lower blanket temperatures (70°C vs 100°C/80°C), harder compound selections, and ground-effect aerodynamics changed load transfer and wear patterns.  Combining 2019–2021 with 2022–2025 introduces **distribution shift** that invalidates model generalisation. 2026+ regulations (narrower tyres, −30kg, active aero) create a third, incompatible era. [formula1](https://www.formula1.com/en/latest/article/7-key-rule-changes-for-the-2022-season.2E7JH9MywymU8xxw6r5yDS)
+
+### **Tyre-regulation changes**
+
+| Year | Tyre Size | Compounds | Blanket Temp | Key Changes |
+|------|-----------|-----------|--------------|-------------|
+| 2019 | 13-inch | C1–C5 (5 compounds, 3 per race) | 100°C front / 80°C rear | Thin-gauge tread standardised; simplified naming (hard/medium/soft)  [formula1](https://www.formula1.com/en/latest/article/f1-rules-and-regulations-what's-new-for-2019.2DIt7TEs9YqI8IY6mEcwsM) |
+| 2020 | 13-inch | C1–C5 | 100°C front / 80°C rear | No major changes |
+| 2021 | 13-inch | C1–C5 | 100°C front / 80°C rear | More robust carcass; downforce cut via floor trimming  [formula1](https://www.formula1.com/en/latest/article/aero-tweaks-new-tyres-and-the-cost-cap-the-2021-f1-rules-and-regulation.r1cq36aI6bvzMeZtiFru3) |
+| 2022 | **18-inch** | C1–C5 | **70°C both axles** | 13→18 inch wheels; low-profile sidewalls; harder compound selections; standardised blankets  [formula1](https://www.formula1.com/en/latest/article/7-key-rule-changes-for-the-2022-season.2E7JH9MywymU8xxw6r5yDS) |
+| 2023 | 18-inch | C1–C5 (new C1.5 inserted) | 70°C (50°C postponed) | Mid-season tougher construction from British GP; new wet tyre  [en.wikipedia](https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship) |
+| 2024 | 18-inch | C1–C5 (C6 dropped) | 70°C (blanket ban postponed) | Back to five compounds; blanket ban delayed to 2025  [fia](https://www.fia.com/news/formula-1-commission-meeting-280723) |
+| 2025 | 18-inch | **C1–C6** (C6 added) | 70°C | C6 introduced for street circuits  [en.wikipedia](https://en.wikipedia.org/wiki/Formula_One_tyres) |
+| 2026 | 18-inch (narrower) | C1–C5 (C6 dropped) | TBC | −25mm front / −30mm rear tyres; −30kg weight; active aero; −15–30% downforce  [formula1](https://www.formula1.com/en/latest/article/pirelli-confirm-2026-tyre-compounds-as-f1-gets-set-for-a-new-era-of.6la0zKVsCYwWk9AAISz4Yw) |
+
+### **Relevant columns from your CSV**
+
+| Column | Use | Notes |
+|--------|-----|-------|
+| `LapTime` | Target | Predict lap time or lap-time delta |
+| `TyreLife` | Feature | Laps on current tyre set (primary predictor) |
+| `Compound` | Feature | Categorical (SOFT/MEDIUM/HARD or C1–C6) |
+| `Stint` | Grouping | For GroupKFold validation |
+| `Driver`, `TeamName` | Random effects | Mixed-effects model or one-hot encoding |
+| `TrackTemp`, `AirTemp` | Feature | Strong effect on degradation |
+| `Circuit` | Feature | Track abrasiveness, corner types |
+| `SessionType` | Feature | Practice/Qualifying/Race (fuel load proxy) |
+| `TrackStatus` | Filter | Exclude yellow-flag, SC, VSC laps |
+| `FreshTyre` | Feature | New vs used tyre at stint start |
+| `Year` | Stratification | For era identification (not continuous feature) |
+
+### **Columns/features requiring caution**
+
+| Column | Risk | Mitigation |
+|--------|------|------------|
+| `Sector1/2/3Time` | **Leakage** (LapTime = S1+S2+S3)  [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1) | Exclude from features; use only for outlier detection |
+| `IsPersonalBest` | Post-race information | Exclude |
+| `Position`, `GapToLeader` | Confounding (traffic, strategy) | Exclude or use as post-race validation only |
+| `FuelLoad` (if present) | Latent/unobserved | FastF1 does not provide actual fuel; do not treat as ground truth |
+| `TyrePressure` (if present) | Unavailable at prediction time | Exclude |
+| `Year` (continuous) | Distribution shift | Use as categorical era indicator or train separate models |
+| `DriverNumber` | Duplicate of `Driver` | Drop to avoid multicollinearity |
+
+### **Recommended preprocessing**
+1. **Filter laps:** Remove outliers (pit-in/pit-out laps, yellow-flag/SC/VSC laps, laps with `TrackStatus != "1"`).
+2. **Stint reconstruction:** Ensure `Stint` is correctly identified (group by `Driver`, `Session`, and pit-stop boundaries).
+3. **Tyre age:** Compute `TyreAge = LapNumber - StintStartLap` (or use `TyreLife` if available).
+4. **Compound encoding:** Map `Compound` to numeric (e.g., SOFT=0, MEDIUM=1, HARD=2) or one-hot encode.
+5. **Temperature binning:** Bin `TrackTemp` (e.g., <20°C, 20–30°C, >30°C) if non-linear effects are expected.
+6. **Era flag:** Add `Era = "13-inch"` for 2019–2021, `"18-inch"` for 2022–2025, `"2026+"` for 2026+.
+7. **Feature scaling:** Standardise continuous features (`TrackTemp`, `TyreAge`) for regularised models.
+
+### **Recommended validation strategy**
+**GroupKFold (k=5 or 10) grouped by `(Race, Driver, Stint)`**, with secondary **Leave-One-Race-Out** validation.  Ensure each fold contains a mix of years (2022–2025) to avoid year-specific bias. [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1)
+
+### **Recommended baseline model**
+**Linear Mixed-Effects Model:**
+```
+LapTime ~ TyreAge * Compound + TrackTemp + (1|Driver) + (1|Circuit) + (1|Stint)
+```
+- Interpretable degradation slopes per compound.
+- Accounts for driver/circuit/stint random effects.
+
+### **Recommended advanced model**
+**Gradient Boosting (XGBoost/LightGBM/CatBoost)** with:
+- Features: `TyreAge`, `Compound`, `TrackTemp`, `Circuit` (encoded), `SessionType`, `FreshTyre`, `Era`.
+- **No sector times, no post-race features.** [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1)
+- Hyperparameter tuning via GroupKFold.
+
+### **How to test whether removing old data genuinely helps**
+1. **Experiment 1:** Train on 2019–2025, test on 2022–2025 (GroupKFold). Record R², MAE.
+2. **Experiment 2:** Train on 2022–2025 only, test on 2022–2025 (GroupKFold). Record R², MAE.
+3. **Experiment 3:** Train on 2019–2021, test on 2022–2025 (cross-era). Expect significant performance drop.
+4. **Statistical test:** Compare R²/MAE between Experiment 1 and 2 using paired t-test or Wilcoxon signed-rank test across folds.
+5. **Residual analysis:** Plot residuals by year; check for systematic bias in Experiment 1 (2019–2021 data pulling predictions away from 2022–2025 reality).
+
+### **What would constitute convincing evidence**
+- **Degradation slope distributions:** KS test p < 0.01 between 2019–2021 and 2022–2025.
+- **Era interaction effect:** `TyreAge × Era` term significant (p < 0.001) in mixed model.
+- **Cross-era performance drop:** R² drops by >0.15 when training on 2019–2021 and testing on 2022–2025 vs within-era validation.
+- **Residual bias:** Mean residual for 2022–2025 test set shifts by >0.2s when 2019–2021 data is included in training.
+- **Plots:** Tyre-age vs lap-time curves showing visibly different slopes by era; residual distributions by era.
+
+### **Potential hackathon weakness**
+Judges may challenge:
+1. **Fuel-load confounding:** You do not have actual fuel loads; lap-time drop-off conflates tyre degradation and fuel burn.  Mitigation: Use `SessionType` (Race vs Qualifying) as proxy; acknowledge limitation explicitly. [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1)
+2. **Traffic/push-level bias:** Practice laps include traffic, sandbagging, and installation laps. Mitigation: Filter by `TrackStatus`, exclude first 2 laps of stint, use quantile regression to model "best-case" degradation.
+3. **2023 mid-season construction change:** If your 2022–2025 dataset includes pre- and post-British GP 2023 laps, degradation rates may shift mid-year.  Mitigation: Add `PrePostSilverstone2023` flag or exclude pre-July 2023 data. [planetf1](https://www.planetf1.com/news/pirelli-tougher-tyres-from-silverstone)
+4. **2025 C6 compound:** C6 is only used on street circuits; including it without stratification may bias degradation estimates.  Mitigation: Stratify by compound code (C1–C6) rather than nominal name (SOFT/MEDIUM/HARD). [en.wikipedia](https://en.wikipedia.org/wiki/Formula_One_tyres)
+5. **Leakage via sector times:** If you include S1/S2/S3, judges will immediately flag this as "learning addition".  Mitigation: Explicitly state these are excluded; show ablation study. [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1)
+
+***
+
+## Key Takeaway
+
+**Do not chase R².** A scientifically defensible model trained on **2022–2025 only**, validated with **GroupKFold by stint**, and explicitly acknowledging **fuel-load and traffic confounding** will be more impressive to judges than a high-R² model that leaks information or mixes incompatible eras.  The goal is **tyre degradation intelligence**, not lap-time prediction—and that requires isolating true wear from noise, not maximising in-sample fit. [linkedin](https://www.linkedin.com/posts/namidu-harshana-6188072b6_machinelearning-datascience-artificialintelligence-activity-7490730797587410944-HEY1)</p>
+	</main>
+
+	<script>
+		function showMessage() {
+			document.getElementById('message').textContent = 'Hello, world!';
+		}
+	</script>
+</body>
+</html>
