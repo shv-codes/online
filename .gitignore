@@ -1,0 +1,5 @@
+.DS_Store
+ENRICHED_TYRE_DATASET_V2.csv
+TYRE_FINAL_STRICT/
+__pycache__/
+.ipynb_checkpoints/
